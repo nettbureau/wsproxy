@@ -1,4 +1,4 @@
-GITHUB_USER=neondatabase
+GITHUB_USER=nettbureau
 IMAGE_NAME=wsproxy
 PLATFORMS=linux/amd64,linux/arm64
 BUILDER_NAME=$(IMAGE_NAME)-builder

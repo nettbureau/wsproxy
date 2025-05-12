@@ -12,7 +12,7 @@ services:
             POSTGRES_PASSWORD: neon-password
     
     neon:
-        image: ghcr.io/flexchar/wsproxy:latest
+        image: ghcr.io/nettbureau/wsproxy:latest
         restart: always
         depends_on:
             - pgsql
